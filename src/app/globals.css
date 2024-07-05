@@ -1,0 +1,211 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header_top_icon_wrapper {
+        @apply rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-orange-500 hover:text-white ml-1;
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* globals.css */
+.content-after-header {
+  margin-top: 70px; /* Adjust the value as needed */
+}
+
+
+
+.header-main {
+  @apply fixed top-0 left-0 w-full z-50 ;
+}
+
+
+
+/* Dark mode styles */
+body.dark-mode {
+  @apply bg-gray-900 text-gray-100;
+}
+
+body.dark-mode .header-main {
+  @apply bg-gray-800;
+}
+
+body.dark-mode input {
+  @apply bg-gray-700 text-gray-300 border-gray-600;
+}
+
+/* Ensure the login form stands out */
+.dark-mode .bg-white {
+  @apply bg-gray-800;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #002;
+  color: #ffb;
+}
+
+/* Light mode styles */
+.header-main {
+  background-color: #ffa; /* Light mode background color */
+  transition: background-color 0.3s ease;
+}
+
+/* Dark mode styles */
+body.dark-mode .header-main {
+  background-color: #005; /* Dark mode background color */
+  transition: background-color 0.3s ease;
+}
+
+/* Custom dark mode gradient for the search page */
+.dark-mode .bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #002, #002);
+}
+
+
+/* input.dark-mode {
+  background-color: #002;
+  color: #fff;
+} */
+
+
+
+
+
+
+/* login button css */
+.custom-button {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #03045e;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+    z-index: 1;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .custom-button::before,
+  .custom-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .custom-button::before {
+    left: -5px;
+    background: #933d03;
+  }
+  
+  .custom-button::after {
+    right: -10px;
+    background: #e65c00;
+  }
+  
+  .custom-button:hover::before,
+  .custom-button:hover::after {
+    width: 58%;
+  }
+  
+  .custom-button:hover span {
+    color: #ffffff;
+    transition: 0.3s;
+  }
+  
+  .custom-button span {
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+    position: relative;
+    z-index: 1;
+  }
+    
+
+
+
+
+
+  /* navbar list css */
+.link-item {
+    position: relative;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .link-item::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff7576; /* Change to your desired highlight color */
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    transform-origin: center;
+    box-shadow: 0px 1px 2px #2B3044,
+    0px 4px 16px #2B3044;
+  }
+  
+  .link-item:hover {
+    color: #ff7576; /* Change to your desired hover text color */
+    transform: translateY(-2px);
+  }
+  
+  .link-item:hover::before {
+    transform: scaleX(1);
+  }
+  
+
+
+
+  /* logo css */
+.text-gradient {
+    background: linear-gradient(90deg, #ff0055, #e65c00, #ffa600, #ffef00, #32e8b0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+
+/* card_of_inluencers*/
+  .card {
+    width: 220px;
+    height: 320px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.3s;
+    margin-top: 10%;
+    margin-bottom: 25%;
+  }
+  
+  .card2 {
+    width: 220px;
+    height: 320px;
+    background-color: #1a1a1a;
+    border-radius: 18px;
+    transition: all 0.2s;
+  }
+  
+  .card2:hover {
+    transform: scale(0.97);
+    border-radius: 22px;
+  }
+  
+  .card:hover {
+    box-shadow: 13px 13px 30px 1px rgba(0, 255, 117, 0.3);
+  }
+  
