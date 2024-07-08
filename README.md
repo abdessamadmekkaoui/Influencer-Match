@@ -2,11 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 ## Screenshots
+## Main Page
 ![Main Page Screenshot](https://github.com/abdessamadmekkaoui/Influencer-Match/blob/main/Screenshot_27-6-2024_133022_localhost.jpeg)
+## dark mood 
 ![dark mood Screenshot](https://github.com/abdessamadmekkaoui/Influencer-Match/blob/main/mood.jpeg)
+## login page
 ![login Screenshot](https://github.com/abdessamadmekkaoui/Influencer-Match/blob/main/lo.jpeg)
+## registration page 
 ![registration Screenshot](https://github.com/abdessamadmekkaoui/Influencer-Match/blob/main/re.jpeg)
+## payment using strip
 ![payment Screenshot](https://github.com/abdessamadmekkaoui/Influencer-Match/blob/main/pay.jpeg)
+## searching influencers methode 
 ![searching method Screenshot](https://github.com/abdessamadmekkaoui/Influencer-Match/blob/main/sea.jpeg)
 
 ## Getting Started
