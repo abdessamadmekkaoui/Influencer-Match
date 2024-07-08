@@ -2,10 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 ## Screenshots
-![Main Page Screenshot](https://github.com/yourusername/yourrepository/raw/main/images/main_page.png)
-![Dashboard Screenshot](https://github.com/yourusername/yourrepository/raw/main/images/dashboard.png)
-
-
+![Main Page Screenshot](https://github.com/abdessamadmekkaoui/Influencer-Match/blob/main/Screenshot_27-6-2024_133022_localhost.jpeg)
 
 ## Getting Started
 
